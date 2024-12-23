@@ -96,13 +96,6 @@
   position: relative;
 }
 
-.chat-container:hover .chat-tooltip,
-.notifications-container:hover .notifications-tooltip,
-.favourites-container:hover .favourites-tooltip,
-.header-profile-container:hover .header-profile-tooltip {
-  display: flex;
-}
-
 .header-right-section button {
   border: none;
 }
@@ -122,21 +115,6 @@
   margin-left: -6px;
 }
 
-.chat-tooltip {
-  display: none;
-  left: -9px;
-  top: 35px;
-  color: rgb(14, 17, 19);
-  position: absolute;
-  width: 78px;
-  background-color: rgb(190, 201, 211);
-  border-width: 1px;
-  padding: 5px 3px 5px 3px;
-  border-radius: 3px;
-  font-weight: 500;
-}
-
-
 .notifications-button {
   background-color: transparent;
   cursor: pointer;
@@ -150,23 +128,6 @@
   margin-top: 3px;
 }
 
-.notifications-tooltip {
-  display: none;
-  justify-content: center;
-  align-items: center;
-  left: -20px;
-  top: 36px;
-  color: rgb(14, 17, 19);
-  position: absolute;
-  width: 95px;
-  background-color: rgb(190, 201, 211);
-  border-width: 1px;
-  padding: 5px 3px 5px 3px;
-  border-radius: 3px;
-  font-weight: 500;
-}
-
-
 .favourites-button {
   background-color: transparent;
   cursor: pointer;
@@ -177,22 +138,6 @@
 .favourites-icon {
   width: 25px;
   margin-left: -6px;
-}
-
-.favourites-tooltip {
-  display: none;
-  justify-content: center;
-  align-items: center;
-  left: -10px;
-  top: 35px;
-  color: rgb(14, 17, 19);
-  position: absolute;
-  width: 80px;
-  background-color: rgb(190, 201, 211);
-  border-width: 1px;
-  padding: 5px 3px 5px 3px;
-  border-radius: 3px;
-  font-weight: 500;
 }
 
 .header-profile-button {
@@ -207,20 +152,4 @@
   width: 30px;
   border-radius: 15px;
   margin-left: -6px;
-}
-
-.header-profile-tooltip {
-  display: none;
-  justify-content: center;
-  align-items: center;
-  left: 7px;
-  top: 37px;
-  color: rgb(14, 17, 19);
-  position: absolute;
-  width: 52px;
-  background-color: rgb(190, 201, 211);
-  border-width: 1px;
-  padding: 5px 3px 5px 3px;
-  border-radius: 3px;
-  font-weight: 500;
 }

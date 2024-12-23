@@ -117,6 +117,10 @@
   background-color: transparent;
 }
 
+#following-accounts {
+  display: block;
+}
+
 .sidebar-following-container {
   border-radius: 8px;
   padding-top: 4px;
@@ -140,8 +144,13 @@
   margin-right: 100px;
 }
 
-.sidebar-following-arrow {
+.sidebar-following-down-arrow {
   width: 10px;
+}
+
+.sidebar-following-up-arrow {
+  width: 10px;
+  display: none;
 }
 
 
@@ -181,7 +190,6 @@
   width: 10px;
   margin-left: -6px;
 }
-
 
 
 
