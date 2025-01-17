@@ -1,0 +1,376 @@
+.category-content::-webkit-scrollbar {
+  width: 7px;
+}
+
+.category-content::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.discover-filter-content {
+  display: flex;
+  justify-content: center;
+}
+
+.discover-filter-display {
+  height: 1px;
+  border-top-color: rgba(255, 255, 255, 0.2);
+  border-top-width: 1px;
+  border-top-style: solid;
+  margin-top: 27px;
+  margin-bottom: 20px;
+  width: 909.936px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+
+.discover-category-button {
+  color: white;
+  height: 30px;
+  width: 80px;
+  height: 33px;
+  border: none;
+  margin-top: -43px;
+  background-color: transparent;
+  background-color: rgb(42, 50, 54);
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 16px;
+  margin-right: 10px;
+}
+
+.discover-color-button {
+  color: white;
+  height: 30px;
+  width: 60px;
+  height: 33px;
+  border: none;
+  margin-top: -43px;
+  background-color: transparent;
+  background-color: rgb(42, 50, 54);
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 16px;
+  margin-right: 10px;
+}
+
+
+.discover-filters {
+  border-radius: 25px;
+  position: fixed;
+  background-color: rgb(25,28,31);
+  height: 600px;
+  width: 500px;
+  top : 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.discover-filters-options {
+  display: flex;
+  margin-left: 12.5px;
+  margin-top: 12.5px;
+  height: 55px;
+  width: 475px;
+  background-color: rgb(42, 50, 54);
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter-category-button {
+  color: white;
+  height: 30px;
+  width: 80px;
+  height: 33px;
+  border: solid;
+  border-width: 2px;
+  background-color: transparent;
+  background-color: rgb(25,28,31);
+  cursor: pointer;
+  border-radius: 16px;
+  margin-right: 10px;
+  border-color: transparent;
+}
+
+.filter-color-button {
+  color: white;
+  height: 30px;
+  width: 60px;
+  height: 33px;
+  border: solid;
+  border-width: 2px;
+  background-color: transparent;
+  background-color: rgb(25,28,31);
+  cursor: pointer;
+  border-radius: 16px;
+  margin-right: 10px;
+  border-color: transparent;
+}
+
+.category-content {
+  display: flex;
+  margin-left: 12.5px;
+  margin-top: 12.5px;
+  height: 505px;
+  width: 475px;
+  background-color: rgb(42, 50, 54);
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.filter-current-tab-positioning {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter-current-tab {
+  margin-top: 15px;
+  margin-bottom: 15px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight:500;
+  font-size: 15px;
+  border-bottom: solid;
+  padding-bottom: 15px;
+  width: 425px;
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.go-to-arrow-positioning {
+  position: absolute;
+  right: 20px;
+}
+
+.go-to-arrow {
+  height: 10px;
+}
+
+.select-icons-positioning {
+  position: absolute;
+  right: 17px;
+}
+
+.men-select-icon-fancy-dress,
+.men-tops-select-icon-tshirts,
+.men-tops-select-icon-hoodies,
+.men-tops-select-icon-sweatshirts,
+.men-tops-select-icon-jumpers,
+.men-tops-select-icon-cardigans,
+.men-tops-select-icon-shirts,
+.men-tops-select-icon-polo-shirts,
+.men-tops-select-icon-blouses,
+.men-tops-select-icon-vests,
+.men-tops-select-icon-other
+{
+  height: 12px;
+}
+
+.men-selected-icon-fancy-dress,
+.men-tops-selected-icon-tshirts,
+.men-tops-selected-icon-hoodies,
+.men-tops-selected-icon-sweatshirts,
+.men-tops-selected-icon-jumpers,
+.men-tops-selected-icon-cardigans,
+.men-tops-selected-icon-shirts,
+.men-tops-selected-icon-polo-shirts,
+.men-tops-selected-icon-blouses,
+.men-tops-selected-icon-vests,
+.men-tops-selected-icon-other
+{
+  display: none;
+  height: 12px;
+}
+
+.filter-close-button {
+  right: 35px;
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+}
+
+.filter-close-icon {
+  height: 12px;
+  margin-top: 1px;
+  margin-left: -4px;
+}
+
+.filter-back-button
+{
+  display: none;
+  left: 35px;
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.filter-back-icon
+{
+  margin-top: 3px;
+  height: 12px;
+}
+
+.category-men,
+.category-women,
+.category-men-clothing,
+.category-men-shoes,
+.category-men-accessories,
+.category-women-clothing,
+.category-women-shoes,
+.category-women-accessories,
+.category-men-clothing-tops,
+.category-men-clothing-bottoms,
+.category-men-clothing-coats,
+.category-men-clothing-jackets,
+.category-men-clothing-tracksuits,
+.category-men-clothing-suits,
+.category-men-clothing-sportswear,
+.category-men-clothing-nightwear,
+.category-men-clothing-underwear,
+.category-men-clothing-swimwear,
+.category-men-clothing-fancy-dress,
+.category-men-tops-tshirts,
+.category-men-tops-hoodies,
+.category-men-tops-sweatshirts,
+.category-men-tops-jumpers,
+.category-men-tops-cardigans,
+.category-men-tops-shirts,
+.category-men-tops-polo-shirts,
+.category-men-tops-blouses,
+.category-men-tops-vests,
+.category-men-tops-other,
+.category-men-bottoms-jeans, 
+.category-men-bottoms-sweatpant, 
+.category-men-bottoms-trousers, 
+.category-men-bottoms-shorts, 
+.category-men-bottoms-other,
+.category-men-coats-duffle,  
+.category-men-coats-overcoat,  
+.category-men-coats-parka,  
+.category-men-coats-puffer,  
+.category-men-coats-raincoat,  
+.category-men-coats-trench,  
+.category-men-coats-windbreaker,
+.category-men-coats-other,
+.category-men-bottoms-jeans-acid-washed,
+.category-men-bottoms-jeans-bleached,
+.category-men-bottoms-jeans-capri,
+.category-men-bottoms-jeans-cargo,
+.category-men-bottoms-jeans-chino,
+.category-men-bottoms-jeans-distressed,
+.category-men-bottoms-jeans-embellished,
+.category-men-bottoms-jeans-embroidered,
+.category-men-bottoms-jeans-faded,
+.category-men-bottoms-jeans-painted,
+.category-men-bottoms-jeans-patched,
+.category-men-bottoms-jeans-printed,
+.category-men-bottoms-jeans-ripped,
+.category-men-bottoms-jeans-stone-washed
+{
+  margin-top: 5px;
+  position: relative;
+  display: none;
+  height: 33px;
+  width: 455px;
+  background-color: rgb(25,28,31);
+  border-radius: 7px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.category-men-bottoms-jeans-stone-washed
+{
+  margin-bottom: 5px;
+}
+
+
+.category-men,
+.category-women,
+.category-men-clothing,
+.category-men-shoes,
+.category-men-accessories,
+.category-women-clothing,
+.category-women-shoes,
+.category-women-accessories {
+  height: 50px;
+}
+
+.category-men,
+.category-women
+{
+  display: flex;
+}
+
+.category-men-clothing:hover,
+.category-men-shoes:hover,
+.category-men-accessories:hover,
+.category-women-clothing:hover,
+.category-women-shoes:hover,
+.category-women-accessories:hover,
+.category-men-clothing-tops:hover,
+.category-men-clothing-bottoms:hover,
+.category-men-clothing-coats:hover,
+.category-men-clothing-jackets:hover,
+.category-men-clothing-tracksuits:hover,
+.category-men-clothing-suits:hover,
+.category-men-clothing-sportswear:hover,
+.category-men-clothing-nightwear:hover,
+.category-men-clothing-underwear:hover,
+.category-men-clothing-swimwear:hover,
+.category-men-clothing-fancy-dress:hover,
+.category-men-tops-tshirts:hover,
+.category-men-tops-hoodies:hover,
+.category-men-tops-sweatshirts:hover,
+.category-men-tops-jumpers:hover,
+.category-men-tops-cardigans:hover,
+.category-men-tops-shirts:hover,
+.category-men-tops-polo-shirts:hover,
+.category-men-tops-blouses:hover,
+.category-men-tops-vests:hover,
+.category-men-tops-other:hover,
+.category-men-bottoms-jeans:hover, 
+.category-men-bottoms-sweatpant:hover, 
+.category-men-bottoms-trousers:hover, 
+.category-men-bottoms-shorts:hover, 
+.category-men-bottoms-other:hover,
+.category-men-coats-duffle:hover,  
+.category-men-coats-overcoat:hover,  
+.category-men-coats-parka:hover,  
+.category-men-coats-puffer:hover,  
+.category-men-coats-raincoat:hover,  
+.category-men-coats-trench:hover,  
+.category-men-coats-windbreaker:hover,
+.category-men-coats-other:hover,
+.category-men-bottoms-jeans-acid-washed:hover,
+.category-men-bottoms-jeans-bleached:hover,
+.category-men-bottoms-jeans-capri:hover,
+.category-men-bottoms-jeans-cargo:hover,
+.category-men-bottoms-jeans-chino:hover,
+.category-men-bottoms-jeans-distressed:hover,
+.category-men-bottoms-jeans-embellished:hover,
+.category-men-bottoms-jeans-embroidered:hover,
+.category-men-bottoms-jeans-faded:hover,
+.category-men-bottoms-jeans-painted:hover,
+.category-men-bottoms-jeans-patched:hover,
+.category-men-bottoms-jeans-printed:hover,
+.category-men-bottoms-jeans-ripped:hover,
+.category-men-bottoms-jeans-stone-washed:hover
+{
+  background-color: rgba(15, 17, 19, 255);
+}
+
